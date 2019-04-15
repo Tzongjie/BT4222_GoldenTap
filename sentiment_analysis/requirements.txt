@@ -1,0 +1,11 @@
+tweepy
+pandas
+numpy
+google
+glob3
+nltk
+textblob
+matplotlib
+pandas_datareader
+fix_yahoo_finance
+sklearn
