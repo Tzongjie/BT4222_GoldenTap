@@ -36,6 +36,7 @@
 - Imports keras package for building LSTM models
 - Sets the hyperparameters of the model. Tuning is also carried out in this section
 - Fits the model with the training data
+- Saves each model while tuning. Our final model is named 'final_model.h5'
 
 ## 2.3 Predicting Future Stock Prices
 - Uses the trained model to test and predict the future stock prices

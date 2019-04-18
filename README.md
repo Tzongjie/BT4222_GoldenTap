@@ -13,13 +13,17 @@ BT4222_GoldenTap
             |__ *.json
         |__ README.md
         |__ requirements.txt
-    |__ sentiment_analysis
+    |__ stock_prediction
         |__ Data Scraping Cleaning.ipynb
         |__ Stock Prediction Model.ipynb
         |__ stock_data
             |__ *.csv
         |__ saved_models
             |__ *.h5
+            |__ final_model.h5
+        |__ AAPL_unseen.csv
+        |__ companylist.csv
+        |__ updated_companylist.csv
         |__ README.md
         |__ requirements.txt
     |__ requirements.txt (installs required packages from both analysis)
