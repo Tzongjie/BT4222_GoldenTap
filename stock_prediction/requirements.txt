@@ -1,0 +1,10 @@
+pandas
+numpy
+os
+glob
+pandas_datareader
+fix_yahoo_finance
+sklearn
+matplotlib
+keras
+math
