@@ -10,10 +10,10 @@
 - Download the stock_data folder into this subfolder and unzip it if it isn't already
 - As the stock data are already scraped, you don't need to run the code from 'Data Scraping Cleaning.ipynb'. You only need to run the code for the 'Stock Prediction Model.ipynb' on jupyter environment
 
-# 1. Getting Data from Yahoo Finance [don't need to run]
+# 1. Getting Data from Yahoo Finance [don't need to run this jupyter notebook]
 - Imports commonly used packages for scraping stock data from Yahoo Finance
 
-## 1.1 Reading Company Data
+## 1.1 Reading in Stock Company Details
 - Reads in 'companylist.csv' to get the list of company names and their respective symbols for the objective to retrieve historical stock data of stock firms.
 
 ## 1.2 Scraping Stock Data
@@ -36,9 +36,16 @@
 - Imports keras package for building LSTM models
 - Sets the hyperparameters of the model. Tuning is also carried out in this section
 - Fits the model with the training data
-- Saves each model while tuning. Our final model is named 'final_model.h5'
 
-## 2.3 Predicting Future Stock Prices
-- Uses the trained model to test and predict the future stock prices
+## 2.3 Saving the Trained Models
+- Saves each model while tuning
+- Our final model has already been saved as 'final_model.h5' within the saved_models folder
+
+## 2.4 Loading the Saved Models
+- Loads the saved model (in file format '.h5') into the jupyter notebook
+- To run our final model, simply run the code under this section to load in 'final_model.h5'
+
+## 2.5 Predicting Future Stock Prices
+- Uses the trained/loaded model to test and predict the future stock prices
 - Compare the performance by plotting the time series
 - Calculates the average mean squared error (MSE) and root mean squared error (RMSE) of the model to track the performance of the model
