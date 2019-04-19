@@ -31,7 +31,7 @@ BT4222_GoldenTap
 
 # Procedure to run
 1. Download the tweets data from http://bit.ly/tweets_data
-2. Place tweets_data in the sentiment analysis folder
+2. Create a folder named tweets_data in the sentiment_analysis folder and copy the tweets data in
 3. Download the stock data from http://bit.ly/stocks_data
-4. Place stock_data in the stock prediction folder
+4. Create a folder named stock_data in the stock_prediction folder and copy the stock data in
 6. Run the sentiment analysis and stock prices analysis separately

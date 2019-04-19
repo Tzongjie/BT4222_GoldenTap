@@ -1,1 +1,2 @@
 -r ./sentiment_analysis/requirements.txt
+-r ./stock_prediction/requirements.txt
